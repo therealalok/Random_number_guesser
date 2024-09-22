@@ -12,5 +12,9 @@ while True:
             print("Correct. You both have got the same number.")
             print(f"You took {number_of_attempts} times to get there.")
             break
+        elif(user>computer):
+            print("Try a smaller number. ")
         else:
-            print("Incorrect. Both of you have different numbers.")
+            print("Try a larger number.")
+
+            
