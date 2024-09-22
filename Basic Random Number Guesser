@@ -1,0 +1,13 @@
+import random
+number_of_attempts = 0
+computer = random.randint(1, 10)
+
+while True:
+    user = int(input("Enter the number between 1 to 10: "))
+    number_of_attempts += 1
+    if user == computer:
+        print("Correct. You both have got the same number.")
+        print(f"You took {number_of_attempts} times to get there.")
+        break
+    else:
+        print("Incorrect. Both of you have different numbers.")
