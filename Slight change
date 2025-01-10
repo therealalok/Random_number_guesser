@@ -7,6 +7,8 @@ while True:
     number_of_attempts += 1
     if(user<0):
         print("Invalid. Try again. ")
+    elif(user>10):
+      print("Still Invald. Please enter the number between 1 to 10.")
     else:
         if user == computer:
             print("Correct. You both have got the same number.")
